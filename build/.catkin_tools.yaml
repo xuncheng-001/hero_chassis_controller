@@ -1,0 +1,6 @@
+devel_space: /home/xuncheng/hero_chassis_controller/devel
+install: false
+install_space: /home/xuncheng/hero_chassis_controller/install
+profile: default
+source_space: /home/xuncheng/hero_chassis_controller/src
+workspace: /home/xuncheng/hero_chassis_controller
