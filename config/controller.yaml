@@ -1,0 +1,7 @@
+controller:
+  cqc_lastwork_controller:
+    type=
+
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    pubish_rate: 50
