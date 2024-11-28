@@ -1,1 +1,0 @@
-/home/xuncheng/hero_chassis_controller/devel/.private/catkin_tools_prebuild/setup.sh
