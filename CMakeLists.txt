@@ -1,14 +1,21 @@
 cmake_minimum_required(VERSION 3.0.2)
 project(hero_chassis_controller)
 
-## Compile as C++11, supported in ROS Kinetic and newer
+## 只能用c++14
+set(CMAKE_CXX_STANDARD 14)
+SET(CMAKE_CXX_STANDARD_REQUIRED ON)
 # add_compile_options(-std=c++11)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  roscpp
+        roscpp
+        roslint
+        controller_interface
+        hardware_interface
+        forward_command_controller
+        pluginlib
 )
 
 ## System dependencies are found with CMake's conventions
@@ -101,10 +108,21 @@ find_package(catkin REQUIRED COMPONENTS
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#  INCLUDE_DIRS include
+     INCLUDE_DIRS include
 #  LIBRARIES hero_chassis_controller
 #  CATKIN_DEPENDS roscpp
 #  DEPENDS system_lib
+        ## This is only necessary because Eigen3 sets a non-standard EIGEN3_INCLUDE_DIR variable
+        LIBRARIES
+        CATKIN_DEPENDS
+        roscpp
+        roslint
+        controller_interface
+        hardware_interface
+        forward_command_controller
+        pluginlib
+
+        DEPENDS
 )
 
 ###########
@@ -113,11 +131,25 @@ catkin_package(
 
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
+
+
 include_directories(
-# include
+include
   ${catkin_INCLUDE_DIRS}
 )
 
+add_library(${PROJECT_NAME}
+        src/cqc_lastwork_controller.cpp
+)
+
+add_dependencies(${PROJECT_NAME}
+        ${catkin_EXPORTED_TARGETS}
+)
+
+target_link_libraries(${PROJECT_NAME}
+        ${catkin_LIBRARIES}
+
+)
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
 #   src/${PROJECT_NAME}/hero_chassis_controller.cpp

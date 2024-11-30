@@ -52,7 +52,14 @@
   <build_depend>roscpp</build_depend>
   <build_export_depend>roscpp</build_export_depend>
   <exec_depend>roscpp</exec_depend>
+  <depend>roslint</depend>
 
+  <depend>hardware_interface</depend>
+  <depend>forward_command_controller</depend>
+  <depend>pluginlib</depend>
+  <depend>rm_description</depend>
+  <build_depend>controller_interface</build_depend>
+  <exec_depend>controller_interface</exec_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>

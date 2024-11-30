@@ -1,7 +1,8 @@
 controller:
-  cqc_lastwork_controller:
-    type=
 
-  joint_state_controller:
-    type: joint_state_controller/JointStateController
-    pubish_rate: 50
+    CqcLastworkController:
+       type: hero_chassis_controller/CqcLastworkController
+
+    joint_state_controller:
+      type: joint_state_controller/JointStateController
+      publish_rate: 50

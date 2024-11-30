@@ -1,0 +1,7 @@
+<library path="lib/libsimple_chassis_controller_controller.so">
+
+    <class name="hero_chassis_controller/CqcLastworkController"
+      type="cqc_lastwork_controller::CqcLastworkController"
+      bass_class_type="controller_interface::ControllerBase" >
+    </class>
+</library>
