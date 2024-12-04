@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 3.10)
 project(hero_chassis_controller)
 
 ## 只能用c++14
@@ -18,6 +18,12 @@ find_package(catkin REQUIRED COMPONENTS
         pluginlib
 )
 
+include_directories(
+include
+        ${catkin_INCLUDE_DIRS}
+
+
+)
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 
@@ -133,13 +139,11 @@ catkin_package(
 ## Your package locations should be listed before other locations
 
 
-include_directories(
-include
-  ${catkin_INCLUDE_DIRS}
-)
+
+
 
 add_library(${PROJECT_NAME}
-        src/cqc_lastwork_controller.cpp
+        src/${PROJECT_NAME}.cpp
 )
 
 add_dependencies(${PROJECT_NAME}
@@ -148,8 +152,9 @@ add_dependencies(${PROJECT_NAME}
 
 target_link_libraries(${PROJECT_NAME}
         ${catkin_LIBRARIES}
-
 )
+
+
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
 #   src/${PROJECT_NAME}/hero_chassis_controller.cpp
@@ -234,3 +239,4 @@ target_link_libraries(${PROJECT_NAME}
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+roslint_cpp()

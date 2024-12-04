@@ -1,7 +1,7 @@
 controller:
-
-    CqcLastworkController:
-       type: hero_chassis_controller/CqcLastworkController
+    hero_chassis_controller:
+       type: hero_chassis_controller/CqcLastWorkController
+       
 
     joint_state_controller:
       type: joint_state_controller/JointStateController
