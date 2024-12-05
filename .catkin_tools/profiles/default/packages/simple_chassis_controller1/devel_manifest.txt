@@ -1,6 +1,0 @@
-simple_chassis_controller1
-/home/xuncheng/lastwork/devel/.private/simple_chassis_controller1/cmake.lock /home/xuncheng/lastwork/devel/./cmake.lock
-/home/xuncheng/lastwork/devel/.private/simple_chassis_controller1/share/simple_chassis_controller1/cmake/simple_chassis_controller1Config.cmake /home/xuncheng/lastwork/devel/share/simple_chassis_controller1/cmake/simple_chassis_controller1Config.cmake
-/home/xuncheng/lastwork/devel/.private/simple_chassis_controller1/share/simple_chassis_controller1/cmake/simple_chassis_controller1Config-version.cmake /home/xuncheng/lastwork/devel/share/simple_chassis_controller1/cmake/simple_chassis_controller1Config-version.cmake
-/home/xuncheng/lastwork/devel/.private/simple_chassis_controller1/lib/libsimple_chassis_controller1.so /home/xuncheng/lastwork/devel/lib/libsimple_chassis_controller1.so
-/home/xuncheng/lastwork/devel/.private/simple_chassis_controller1/lib/pkgconfig/simple_chassis_controller1.pc /home/xuncheng/lastwork/devel/lib/pkgconfig/simple_chassis_controller1.pc
