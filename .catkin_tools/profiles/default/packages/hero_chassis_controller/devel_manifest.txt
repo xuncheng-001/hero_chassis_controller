@@ -1,0 +1,6 @@
+hero_chassis_controller
+/home/xuncheng/lastwork/devel/.private/hero_chassis_controller/cmake.lock /home/xuncheng/lastwork/devel/./cmake.lock
+/home/xuncheng/lastwork/devel/.private/hero_chassis_controller/share/hero_chassis_controller/cmake/hero_chassis_controllerConfig-version.cmake /home/xuncheng/lastwork/devel/share/hero_chassis_controller/cmake/hero_chassis_controllerConfig-version.cmake
+/home/xuncheng/lastwork/devel/.private/hero_chassis_controller/share/hero_chassis_controller/cmake/hero_chassis_controllerConfig.cmake /home/xuncheng/lastwork/devel/share/hero_chassis_controller/cmake/hero_chassis_controllerConfig.cmake
+/home/xuncheng/lastwork/devel/.private/hero_chassis_controller/lib/libhero_chassis_controller.so /home/xuncheng/lastwork/devel/lib/libhero_chassis_controller.so
+/home/xuncheng/lastwork/devel/.private/hero_chassis_controller/lib/pkgconfig/hero_chassis_controller.pc /home/xuncheng/lastwork/devel/lib/pkgconfig/hero_chassis_controller.pc

@@ -1,0 +1,5 @@
+rm_description_for_task
+/home/xuncheng/lastwork/devel/.private/rm_description/cmake.lock /home/xuncheng/lastwork/devel/./cmake.lock
+/home/xuncheng/lastwork/devel/.private/rm_description/share/rm_description/cmake/rm_descriptionConfig.cmake /home/xuncheng/lastwork/devel/share/rm_description/cmake/rm_descriptionConfig.cmake
+/home/xuncheng/lastwork/devel/.private/rm_description/share/rm_description/cmake/rm_descriptionConfig-version.cmake /home/xuncheng/lastwork/devel/share/rm_description/cmake/rm_descriptionConfig-version.cmake
+/home/xuncheng/lastwork/devel/.private/rm_description/lib/pkgconfig/rm_description.pc /home/xuncheng/lastwork/devel/lib/pkgconfig/rm_description.pc

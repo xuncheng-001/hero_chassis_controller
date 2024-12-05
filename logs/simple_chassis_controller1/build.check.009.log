@@ -1,0 +1,3 @@
+CMake Error: The source directory "/home/xuncheng/lastwork/src/simple_chassis_controller1" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+make: *** [Makefile:602：cmake_check_build_system] 错误 1

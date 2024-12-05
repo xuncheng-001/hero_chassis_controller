@@ -1,0 +1,7 @@
+[01m[K/home/xuncheng/lastwork/src/simplie_chassis_controller1/src/simple_chassis_controller1.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ksimple_chassis_controller/simple_chassis_controller.h: 没有那个文件或目录
+    5 | #include [01;31m[K"simple_chassis_controller/simple_chassis_controller.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/simple_chassis_controller1.dir/build.make:63：CMakeFiles/simple_chassis_controller1.dir/src/simple_chassis_controller1.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:657：CMakeFiles/simple_chassis_controller1.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

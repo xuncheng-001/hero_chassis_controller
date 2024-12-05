@@ -1,0 +1,7 @@
+[01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:[m[K In function ‘[01m[Kvoid hero_chassis_controller::update(const ros::Time&, const ros::Duration&)[m[K’:
+[01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfront_left_wheel[m[K’ was not declared in this scope
+   22 |         [01;31m[Kfront_left_wheel[m[K.setCommand(2.0);
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/hero_chassis_controller.dir/build.make:63：CMakeFiles/hero_chassis_controller.dir/src/hero_chassis_controller.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:279：CMakeFiles/hero_chassis_controller.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

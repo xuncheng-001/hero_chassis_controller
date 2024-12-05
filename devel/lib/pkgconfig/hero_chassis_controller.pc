@@ -1,0 +1,1 @@
+/home/xuncheng/lastwork/devel/.private/hero_chassis_controller/lib/pkgconfig/hero_chassis_controller.pc
