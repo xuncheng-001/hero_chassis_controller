@@ -1,7 +1,0 @@
-[01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Khero_chassis_controller/hero_chassis_controller.h: 没有那个文件或目录
-    5 | #include [01;31m[K"hero_chassis_controller/hero_chassis_controller.h"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/simple_chassis_controller.dir/build.make:76：CMakeFiles/simple_chassis_controller.dir/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp.o] 错误 1
-make[1]: *** [CMakeFiles/Makefile2:225：CMakeFiles/simple_chassis_controller.dir/all] 错误 2
-make: *** [Makefile:141：all] 错误 2
