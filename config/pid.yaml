@@ -1,0 +1,22 @@
+front_left_wheel_pid:
+  p: 1.0
+  i: 0.1
+  d: 0.05
+  i_clamp: 1.0
+front_right_wheel_pid:
+  p: 1.0
+  i: 0.1
+  d: 0.05
+  i_clamp: 1.0
+
+back_left_wheel_pid:
+  p: 1.0
+  i: 0.1
+  d: 0.05
+  i_clamp: 1.0
+
+back_right_wheel_pid:
+  p: 1.0
+  i: 0.1
+  d: 0.05
+  i_clamp: 1.0

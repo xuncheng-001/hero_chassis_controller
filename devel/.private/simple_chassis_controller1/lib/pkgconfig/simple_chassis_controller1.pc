@@ -1,8 +1,0 @@
-prefix=/home/xuncheng/lastwork/devel/.private/simple_chassis_controller1
-
-Name: simple_chassis_controller1
-Description: Description of simple_chassis_controller1
-Version: 0.1.0
-Cflags: -I/home/xuncheng/lastwork/src/simple_chassis_controller1/include
-Libs: -L${prefix}/lib 
-Requires: roscpp roslint controller_interface hardware_interface forward_command_controller pluginlib
