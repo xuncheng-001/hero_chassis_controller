@@ -1,0 +1,6 @@
+devel_space: /home/xuncheng/lastwork/devel
+install: false
+install_space: /home/xuncheng/lastwork/install
+profile: default
+source_space: /home/xuncheng/lastwork/src
+workspace: /home/xuncheng/lastwork

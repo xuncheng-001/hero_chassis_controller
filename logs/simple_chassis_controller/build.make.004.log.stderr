@@ -1,0 +1,117 @@
+[01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:5:10:[m[K [01;31m[Kerror: [m[Kmissing terminating " character [[01;31m[K-Werror[m[K]
+    5 | #include [01;31m[K"[m[Khero_chassis_controller/hero_chassis_controller.h)
+      |          [01;31m[K^[m[K
+[01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:5:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+    5 | #include [01;31m[K"hero_chassis_controller/hero_chassis_controller.h)[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:13:10:[m[K [01;31m[Kerror: [m[K‘[01m[KCqcLastWorkController[m[K’ has not been declared
+   13 |     bool [01;31m[KCqcLastWorkController[m[K::init (hardware_interface::EffortJointInterface* effort_joint_interface,ros::NodeHandle& root_node_handle,ros::NodeHandle& node_handle) {
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:[m[K In function ‘[01m[Kbool hero_chassis_controller::init(hardware_interface::EffortJointInterface*, ros::NodeHandle&, ros::NodeHandle&)[m[K’:
+[01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfront_left_wheel[m[K’ was not declared in this scope
+   14 |         [01;31m[Kfront_left_wheel[m[K=effort_joint_interface->getHandle("left_front_wheel_joint");
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfront_right_wheel[m[K’ was not declared in this scope
+   15 |         [01;31m[Kfront_right_wheel[m[K=effort_joint_interface->getHandle("right_front_wheel_joint");
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kback_left_wheel[m[K’ was not declared in this scope
+   16 |         [01;31m[Kback_left_wheel[m[K=effort_joint_interface->getHandle("left_back_wheel_jonit");
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kback_right_wheel[m[K’ was not declared in this scope
+   17 |         [01;31m[Kback_right_wheel[m[K=effort_joint_interface->getHandle("right_back_wheel_jonit");
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:[m[K In function ‘[01m[Kvoid hero_chassis_controller::update(const ros::Time&, const ros::Duration&)[m[K’:
+[01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfront_left_wheel[m[K’ was not declared in this scope
+   22 |         [01;31m[Kfront_left_wheel[m[K.setCommand(2.0);
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/class_loader/class_loader.hpp:47[m[K,
+                 from [01m[K/opt/ros/noetic/include/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:4[m[K:
+[01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:[m[K At global scope:
+[01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:25:49:[m[K [01;31m[Kerror: [m[K‘[01m[KCqcLastWorkController[m[K’ in namespace ‘[01m[Khero_chassis_controller[m[K’ does not name a type
+   25 | PLUGINLIB_EXPORT_CLASS(hero_chassis_controller::[01;31m[KCqcLastWorkController[m[K,controller_interface::ControllerBase)
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/class_loader/register_macro.hpp:43:14:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_WITH_MESSAGE[m[K’
+   43 |     typedef  [01;36m[KDerived[m[K _derived; \
+      |              [01;36m[K^~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/class_loader/register_macro.hpp:63:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_HOP1_WITH_MESSAGE[m[K’
+   63 |   [01;36m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_HOP1_WITH_MESSAGE[m[K(Derived, Base, __COUNTER__, Message)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/class_loader/register_macro.hpp:70:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_WITH_MESSAGE[m[K’
+   70 |   [01;36m[KCLASS_LOADER_REGISTER_CLASS_WITH_MESSAGE[m[K(Derived, Base, "")
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/pluginlib/class_list_macros.hpp:49:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS[m[K’
+   49 |   [01;36m[KCLASS_LOADER_REGISTER_CLASS[m[K(class_type, base_class_type)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:25:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPLUGINLIB_EXPORT_CLASS[m[K’
+   25 | [01;36m[KPLUGINLIB_EXPORT_CLASS[m[K(hero_chassis_controller::CqcLastWorkController,controller_interface::ControllerBase)
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:[m[K In constructor ‘[01m[Khero_chassis_controller::{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[01m[K/opt/ros/noetic/include/class_loader/register_macro.hpp:49:42:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+   49 |       class_loader::impl::registerPlugin<[01;31m[K_derived[m[K, _base>(#Derived, #Base); \
+      |                                          [01;31m[K^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/class_loader/register_macro.hpp:56:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_WITH_MESSAGE[m[K’
+   56 |   [01;36m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_WITH_MESSAGE[m[K(Derived, Base, UniqueID, Message)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/class_loader/register_macro.hpp:63:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_HOP1_WITH_MESSAGE[m[K’
+   63 |   [01;36m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_HOP1_WITH_MESSAGE[m[K(Derived, Base, __COUNTER__, Message)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/class_loader/register_macro.hpp:70:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_WITH_MESSAGE[m[K’
+   70 |   [01;36m[KCLASS_LOADER_REGISTER_CLASS_WITH_MESSAGE[m[K(Derived, Base, "")
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/pluginlib/class_list_macros.hpp:49:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS[m[K’
+   49 |   [01;36m[KCLASS_LOADER_REGISTER_CLASS[m[K(class_type, base_class_type)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:25:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPLUGINLIB_EXPORT_CLASS[m[K’
+   25 | [01;36m[KPLUGINLIB_EXPORT_CLASS[m[K(hero_chassis_controller::CqcLastWorkController,controller_interface::ControllerBase)
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/class_loader/register_macro.hpp:49:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, hero_chassis_controller::{anonymous}::ProxyExec0::_base>(const char [47], const char [37])[m[K’
+   49 |       class_loader::impl::registerPlugin<_derived, _base>(#Derived, #Base[01;31m[K)[m[K; \
+      |                                                                          [01;31m[K^[m[K
+[01m[K/opt/ros/noetic/include/class_loader/register_macro.hpp:56:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_WITH_MESSAGE[m[K’
+   56 |   [01;36m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_WITH_MESSAGE[m[K(Derived, Base, UniqueID, Message)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/class_loader/register_macro.hpp:63:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_HOP1_WITH_MESSAGE[m[K’
+   63 |   [01;36m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_HOP1_WITH_MESSAGE[m[K(Derived, Base, __COUNTER__, Message)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/class_loader/register_macro.hpp:70:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_WITH_MESSAGE[m[K’
+   70 |   [01;36m[KCLASS_LOADER_REGISTER_CLASS_WITH_MESSAGE[m[K(Derived, Base, "")
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/pluginlib/class_list_macros.hpp:49:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS[m[K’
+   49 |   [01;36m[KCLASS_LOADER_REGISTER_CLASS[m[K(class_type, base_class_type)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:25:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPLUGINLIB_EXPORT_CLASS[m[K’
+   25 | [01;36m[KPLUGINLIB_EXPORT_CLASS[m[K(hero_chassis_controller::CqcLastWorkController,controller_interface::ControllerBase)
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/class_loader/class_loader.hpp:46[m[K,
+                 from [01m[K/opt/ros/noetic/include/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:4[m[K:
+[01m[K/opt/ros/noetic/include/class_loader/class_loader_core.hpp:176:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+  176 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/class_loader/class_loader_core.hpp:176:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/noetic/include/class_loader/class_loader.hpp:47[m[K,
+                 from [01m[K/opt/ros/noetic/include/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:4[m[K:
+[01m[K/opt/ros/noetic/include/class_loader/register_macro.hpp:49:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   49 |       class_loader::impl::registerPlugin<_derived, _base>(#Derived, #Base[01;31m[K)[m[K; \
+      |                                                                          [01;31m[K^[m[K
+[01m[K/opt/ros/noetic/include/class_loader/register_macro.hpp:56:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_WITH_MESSAGE[m[K’
+   56 |   [01;36m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_WITH_MESSAGE[m[K(Derived, Base, UniqueID, Message)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/class_loader/register_macro.hpp:63:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_HOP1_WITH_MESSAGE[m[K’
+   63 |   [01;36m[KCLASS_LOADER_REGISTER_CLASS_INTERNAL_HOP1_WITH_MESSAGE[m[K(Derived, Base, __COUNTER__, Message)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/class_loader/register_macro.hpp:70:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS_WITH_MESSAGE[m[K’
+   70 |   [01;36m[KCLASS_LOADER_REGISTER_CLASS_WITH_MESSAGE[m[K(Derived, Base, "")
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/pluginlib/class_list_macros.hpp:49:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KCLASS_LOADER_REGISTER_CLASS[m[K’
+   49 |   [01;36m[KCLASS_LOADER_REGISTER_CLASS[m[K(class_type, base_class_type)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp:25:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPLUGINLIB_EXPORT_CLASS[m[K’
+   25 | [01;36m[KPLUGINLIB_EXPORT_CLASS[m[K(hero_chassis_controller::CqcLastWorkController,controller_interface::ControllerBase)
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+cc1plus: all warnings being treated as errors
+make[2]: *** [CMakeFiles/simple_chassis_controller.dir/build.make:76：CMakeFiles/simple_chassis_controller.dir/home/xuncheng/lastwork/src/hero_chassis_controller/src/hero_chassis_controller.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:225：CMakeFiles/simple_chassis_controller.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2
