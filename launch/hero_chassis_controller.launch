@@ -5,8 +5,15 @@
     <arg name="paused" value="true"/>
   </include>
 
+   <node name="teleop_twist_keyboard" pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" output="screen">
+
+      <param name="linear_speed" value="0.5" />
+      <param name="angular_speed" value="0.5" />
+    </node>
+<node name="plotjuggler" pkg="plotjuggler" type="plotjuggler" required="true" output="screen">
+
+  </node>
   <rosparam file="$(find hero_chassis_controller)/config/controllers.yaml" command="load"/>
-  <!-- load the controllers -->
   <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
         output="screen" args="
         controller/hero_chassis_controller

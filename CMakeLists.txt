@@ -18,6 +18,11 @@ find_package(catkin REQUIRED
     hardware_interface
     forward_command_controller
     pluginlib
+    control_toolbox
+        teleop_twist_keyboard
+        dynamic_reconfigure
+        tf
+        tf2_ros
     )
 
 ###################################
@@ -41,6 +46,7 @@ catkin_package(
     hardware_interface
     forward_command_controller
     pluginlib
+    tf2_ros
     DEPENDS
 )
 
@@ -68,6 +74,7 @@ add_dependencies(${PROJECT_NAME}
 
 target_link_libraries(${PROJECT_NAME}
     ${catkin_LIBRARIES}
+
     )
 
 #############

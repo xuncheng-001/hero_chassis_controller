@@ -3,10 +3,7 @@
   <class name="hero_chassis_controller/CqcLastWorkController"
          type="hero_chassis_controller::CqcLastWorkController"
          base_class_type="controller_interface::ControllerBase">
-    <description>
-      The SimpleChassisController is RoboMaster standard robot Chassis controller. It expects a EffortJointInterface
-      type of hardware interface.
-    </description>
+
   </class>
 
 </library>

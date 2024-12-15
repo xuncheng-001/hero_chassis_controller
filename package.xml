@@ -19,6 +19,10 @@
   <depend>forward_command_controller</depend>
   <depend>pluginlib</depend>
   <depend>rm_description</depend>
+  <depend>control_toolbox</depend>
+  <depend>teleop_twist_keyboard</depend>
+  <depend>rqt_reconfigure</depend>
+  <depend>tf2_ros</depend>
 
   <export>
     <controller_interface plugin="${prefix}/hero_chassis_controller_plugins.xml"/>
